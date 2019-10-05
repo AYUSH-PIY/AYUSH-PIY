@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://static.invisionapp-cdn.com/spa/cfprojects/common/img/favicon-16x16.2648d8282b.png" sizes="16x16" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(250, 246, 246);
+  
+
+  
+}
+
+
+
+.header {
+    margin-left: 90px;
+  margin-right: 50px;
+    width:1700px;
+  color:black;
+  background: white;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(236, 234, 234, 0.2), 0 6px 20px 0 rgba(187, 184, 184, 0.19);
+
+}
+
+
+.header1 {
+    position: absolute;
+    width:89px;
+  color:black;
+  background: white;
+  height: 2200px;
+  box-shadow: 0 4px 8px 0 rgba(236, 234, 234, 0.2), 0 6px 20px 0 rgba(187, 184, 184, 0.19);
+
+}
+
+
+
+
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; 
+}
+
+
+.foote {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+.colu {
+  float: left;
+  padding: 40px;
+  height:300px;
+  
+}
+
+/* Left and right column */
+.colu.side {
+  width: 25%;
+   background-color: white;
+
+  margin-left:175px;
+  box-shadow: 0 4px 8px 0 rgba(247, 242, 242, 0.2), 0 6px 20px 0 rgba(248, 246, 246, 0.19);
+
+
+}
+.colu.side1 {
+  width: 25%;
+ margin-right:30px;
+ box-shadow: 0 4px 8px 0 rgba(245, 241, 241, 0.2), 0 6px 20px 0 rgba(248, 245, 245, 0.19);
+ margin-left:55px;
+ background-color: white;
+
+
+
+}
+
+/* Middle column */
+.colu.middle {
+  width: 25%;
+  background-color: white;
+
+  box-shadow: 0 4px 8px 0 rgba(240, 236, 236, 0.2), 0 6px 20px 0 rgba(243, 240, 240, 0.19);
+  margin-left:55px;
+
+}
+
+/* Clear floats after the columns */
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  top:20px;
+  left: 80px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.border1{
+position: absolute;
+border: 3px solid skyblue;
+  width:180px;
+  height: 40px;
+  margin-left:30px;
+  background-color: white;
+  border-radius: 8px;
+  
+
+
+
+
+}
+
+
+.text-block1 {
+  position: absolute;
+  top:2080px;
+  left: 50px;
+  border-radius: 50px;
+  background-color:white;
+  color:rgb(125, 125, 175);
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(187, 180, 180, 0.2), 0 6px 20px 0 rgba(187, 184, 184, 0.19);
+
+}
+
+.border{
+position: absolute;
+border: 3px solid skyblue;
+  width:150px;
+  height: 40px;
+  margin-left:7px;
+  margin: -3px;
+
+}
+.container1{
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+margin-left:200px;
+background-color:rgb(236, 243, 247);
+margin-top: 40px;
+height:240px;
+width: 80%;
+}
+
+.badge {
+  position: absolute;
+  top:-1px;
+left: 1310px ;
+  padding: 6px 6px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+
+.badge1 {
+  position: absolute;
+  top:13px;
+left: 1360px ;
+padding: 10px 10px;
+
+  border-radius: 50% 50%;
+  background-color:rgb(120, 241, 120);
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .column.side,.column.middle{  
+    width:100%; 
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    
+
+
+
+
+
+
+  <div class="header1">
+        <a href="#"><i class="fa fa-fw fa-th-large" style="color: skyblue; font-size: 25px; margin-left:40px; margin-top: 120px"></i></a>
+
+
+        <a href="#"><i class="fa fa-fw fa-search" style="color: gray; font-size: 25px; margin-left:40px; margin-top: 30px"></i></a>
+        <a href="#"><i class="fa fa-fw fa-trash-o" style="color: gray; font-size: 25px; margin-left:40px; margin-top: 30px"></i></a>
+
+
+
+    </div>
+
+
+    
+    <div class="text-block1" style="font-size: 15px; padding-top:10px;">
+            <a href="#" style="color:black; font-size: 20px;"><i class="fa fa-fw fa-linkedin" ></i></a>
+
+        Made in Invision</div>
+<div class="header">
+  <div class="container">
+        <a href="#"><i class="fa fa-fw fa-bell-o" style="color:gainsboro; font-size: 25px; margin-top: 23px; margin-left:1300px;"></i></a>
+<div class="badge">699</div>
+<div class="badge1">AB</div>
+
+    <div class="text-block" style="font-size: 30px;">white<b>panda</b></div>
+
+  </div>
+</div>
+
+  
+  
+   
+    <h1 style="margin-left:200px; margin-top:40px;">Content Store</h1>
+
+    <div class="container1">
+
+    <h3 style="color:skyblue; margin: 30px; padding-top: 25px;">Got bulk orders or almost similar orders ? Fill the order</h3>
+
+    <p style="margin-left: 30p; padding-left: 20px; color: rgb(125, 125, 175)">if you're wondering about an easy way to place orders in large numbers, we provide a way customized just for that<br>Download our excel sheet , and fill the order brief in the prescribed format and submit.In case you need any help,<u>we<br>are just a click away to assist you in placeing your order</u></p>
+
+            <p  class="border1" style="text-align:center; color:skyblue; padding-top: 8px;">Order via Excel Sheet</p>
+          
+    </div>
+
+
+
+            <br><br><br><br><br><br>
+            
+      
+            <div class="r">
+              <div class="colu side">
+                    <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Blog/Article</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">500</i></div></div>
+                    <p style="color:rgb(125, 125, 175); font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                    <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+                    
+               
+            </div>
+      <div class="colu middle">
+            <a href="#"><i class="fa fa-fw fa-circle" style="color:skyblue; font-size: 80px;position:absolute"></i></a>
+            <div style="font-size:20px; padding-left:100px; padding-top:19px; color:skyblue"><b>Newsletter/E-mailer</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">1000</i></div></div>
+                <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+         
+
+      </div>
+            
+              <div class="colu side1">
+                    <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                    <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Whitepaper</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">2000</i></div></div>               
+                     <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+
+      
+</div>
+            </div>
+            
+
+
+
+            <div class="r">
+
+                    <div class="colu side" style="margin-top:30px; ">
+                            <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                            <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>e-book</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">1000</i></div></div>                   
+                             <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                    <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+                    </div>
+                    <div class="colu middle" style="margin-top:30px; ">
+
+                            <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                            <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Report/guide</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">1000</i></div></div>
+                            <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                            <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+                    
+                    
+                    
+                    </div>
+
+                    <div class="colu side1" style="margin-top:30px; ">
+                            <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                            <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Product description</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">00</i></div></div>                            
+                            <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users </p>
+                            <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+                    
+                    
+                    </div>
+
+            </div>
+            <div class="r">
+
+                    <div class="colu side" style="margin-top:30px; ">
+                            <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                            <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Website content</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">1000</i></div></div>
+                            <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                            <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+                    </div>
+
+
+                    <div class="colu middle" style="margin-top:30px; ">
+
+                            <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                            <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Video Script</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">1000</i></div></div>                           
+                             <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                            <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+                        
+                        
+                        
+                        </div>
+
+                <div class="colu side1" style="margin-top:30px; " >    
+                        <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>   
+                        <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Company Profile/brochure</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">000</i></div></div>      
+                        <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users </p>
+                    <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p>
+                </div>
+            </div>
+
+            <div class="r">
+
+                    <div class="colu side" style="margin-top:30px; ">
+                            <a href="#"><i class="fa fa-fw fa-circle-o" style="color:blue; font-size: 80px;position:absolute"></i></a>
+                            <div style="font-size:20px; padding-left:100px; padding-top:19px;"><b>Press Release</b><br><div style="padding-left: 5px; color: black">from <i class="fa fa-rupee" style="color:rgb(59, 59, 59)">2000</i></div></div>                            
+                            <p style="color:rgb(125, 125, 175);font-size:18px;">Typically 450-400 words,an e-book is perfect for your target audience ranging from prospective customers to users</p>
+                            <p  class="border" style="text-align:center; color:skyblue; padding-top: 8px;">Order</p> 
+                    </div>
+
+
+
+            </div>
+            
+      
+      
+
+      
+<br><br><br>
+
+ 
+  <div class="foote">
+       
+  <a href="#" style="color: gray; font-size: 40px;"><i class="fa fa-fw fa-twitter"></i></a>
+  <a href="#" style="color: gray; font-size: 40px;"><i class="fa fa-fw fa-linkedin"></i></a>
+  <a href="#" style="color: gray; font-size: 40px;"><i class="fa fa-fw fa-instagram"></i></a>
+  <a href="#" style="color: gray; font-size: 40px;"><i class="fa fa-fw fa-facebook"></i></a>
+
+  <p style="color:rgb(125, 125, 175)">Copyright @ 2019 White Panda Media Pvt. Ltd.<br><center style="color: rgb(125, 125, 175)">All rights reserved</center></p>
+<center><u style="color: rgb(125, 125, 175); font-size: 20px;">Privacy policy</u> | <u style="color: rgb(125, 125, 175); font-size: 20px;">Terms of service</u>  |  <u style="color: rgb(125, 125, 175); font-size: 20px;">Service Agreement</u> |<u style="color: rgb(125, 125, 175); font-size: 20px;">Contact us</u></center>
+    
+  
+  </div>
+
+
+  <a href="#"><i class="fa fa-fw fa-th-large" style="color:gray; font-size: 40px; margin-left:1700px; padding-top:-40px; position:absolute"></i></a>
+  <a href="#"><i class="fa fa-fw fa-comment-o" style="color: gray; background:white; font-size: 40px; margin-left:1500px; padding-top:-40px; position:absolute"></i></a>
+  <a href="#"><i class="fa fa-fw fa-code" style="color:gray; font-size: 40px; margin-left:1600px; padding-top:-40px; position:absolute"></i></a>
+
+
+
+
+</body>
+</html>
